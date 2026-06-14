@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vrfcd"
+version = "0.1.0"
+description = "van Rossum distance based functional community detection for spike trains"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Indranil Ghosh", email = "indranilg49@gmail.com"}
+]
+license = {text = "MIT"}
+keywords = [
+    "computational-neuroscience",
+    "spike-trains",
+    "van-rossum-distance",
+    "functional-connectivity",
+    "community-detection",
+    "network-science"
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "networkx",
+    "joblib",
+    "scikit-learn"
+]
+
+[project.optional-dependencies]
+leiden = [
+    "igraph",
+    "leidenalg"
+]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+    "jupyter"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

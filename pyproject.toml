@@ -44,3 +44,8 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/indrag49/vrfcd"
+Repository = "https://github.com/indrag49/vrfcd"
+Issues = "https://github.com/indrag49/vrfcd/issues"

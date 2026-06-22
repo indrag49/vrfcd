@@ -2,7 +2,6 @@
 [![PyPI version](https://img.shields.io/pypi/v/vrfcd.svg)](https://pypi.org/project/vrfcd/)
 [![PyPI downloads](https://static.pepy.tech/badge/vrfcd)](https://pepy.tech/project/vrfcd)
 [![PyPI downloads/month](https://static.pepy.tech/badge/vrfcd/month)](https://pepy.tech/project/vrfcd)
-[![Python versions](https://img.shields.io/pypi/pyversions/vrfcd.svg)](https://pypi.org/project/vrfcd/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
